@@ -1,0 +1,21 @@
+.homework {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+
+}
+
+.homework__title {
+    font-size: 4vh;
+}
+
+.homework__bt {
+    justify-items: center;
+}
+
+button{
+    width: 20vw;
+    height: 10vh;
+}
