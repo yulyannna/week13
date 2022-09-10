@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Document</title>
+
+    <style>
+
+        .container{
+            display: flex; 
+            flex-direction: row;
+            height: 30%;
+        
+        }
+
+        button { 
+            width: 100px;
+            height: 50px;
+            background-color: lightblue;
+            margin: 20px;
+            padding: 10px;
+        }
+        
+</style>
+</head>
+
+<body>
+
+    <div class="container">
+        
+          <button class="plus" onclick="plus()"> + </button>
+          <button class="minus" onclick="minus()"> - </button>
+          <button class ="times" onclick="times()">x</button>
+          <button class="divide" onclick="divide()">:</button>
+    
+        
+</div>
+
+    <script>
+        let num1 = prompt ('первое число');
+        let num2 = prompt ('второе число');
+        function plus(){
+            alert(Number(num1)+Number(num2));
+        }
+        function minus(){
+            alert(Number(num1)-Number(num2));
+        };
+        function times(){
+            alert(Number(num1)*Number(num2));
+        };
+        function divide(){
+            alert(Number(num1)/Number(num2));
+        };
+    </script>
+
+</body>
+</html>
